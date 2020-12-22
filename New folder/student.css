@@ -1,0 +1,121 @@
+	body{
+		margin:0;
+		background-image:url('https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg');
+		background-repeat: no-repeat;
+		background-size: fill;
+		background-size: 100% 100%;
+		width:100%;
+		height:100%;
+		background-attachment: fixed;
+	}
+	#q{
+		position:absolute;
+		left:0.5%;
+		bottom:91.8%;
+    	}
+    input[type="Submit"],input[type="button"]{
+		position:absolute;
+		left:80%;
+		bottom:20%;
+		width:16%;
+		font-size:20px;
+		height:10%;
+		border:3px solid blue;
+		background-image: linear-gradient(to right , violet, lightblue);
+		border-radius:10px;
+		transition: transform 0.08s;
+		position:fixed;
+	}
+	#add:hover,input[type="Submit"]:hover{
+		transform:scale(1.2);
+		cursor: pointer;
+	}
+	input[type="radio"]{
+		width:5%;
+	}
+	input[type="button"]{
+		bottom: 35%;
+	}
+	#signout{ 
+		background-color: black;
+		color : white;
+		position:absolute;
+		bottom:91%;
+		left:90%;
+		width:7%;
+		height:3.5%
+	}
+	#signout:hover{
+		color : orange;
+	}
+	p { 
+		color: #7c795d;
+		font-family: 'Trocchi', serif; font-size: 20px; 
+		font-weight: normal; 
+		line-height: 48px; 
+		margin: 0; 
+	}
+	h1{	
+		font-family: "Verdana", Courier, monospace;
+		color:red;
+		text-shadow: 0px 2px 2px grey,
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+		margin-left : 5%;
+	}
+	h2{
+		margin-left : 1%
+	}
+	.toggle { 
+            position : relative ; 
+            display : inline-block; 
+            width : 40px; 
+            height : 20px; 
+            background-color: white; 
+            border-radius: 30px; 
+            border: 2px solid gray; 
+        } 
+ /* After slide changes */ 
+    .toggle:after { 
+            content: ''; 
+            position: absolute; 
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            background-color: gray; 
+            top: 0px;  
+            left: 0px; 
+            transition:  all 0.5s; 
+		
+        } 
+/* Checkbox cheked effect */ 
+    .checkbox:checked + .toggle::after { 
+            left : 20px;  
+        } 
+                
+        /* Checkbox cheked toggle label bg color */ 
+    .checkbox:checked + .toggle { 
+            background-color: black; 
+        }
+
+	input[type="text"]{
+		width: 50%;
+  		height: 20%;
+  		border: double 4px transparent;
+  		border-radius: 20px;
+  		background-image: linear-gradient(white, white), radial-gradient(circle at top left, lightblue,white);
+  		background-origin: border-box;
+  		background-clip: content-box, border-box;
+		margin-left:2%;
+       		box-shadow:0 0 10px #000000;
+		font-size:25px;
+		transition: transform 0.1s;
+
+	}
+	input[id^="Ops"]{
+		width:20%;
+		height:10%;
+		margin-right: 20%;
+		font-size:15px;
+	}
+                

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body id="loginbody">
+<div id="form">
+  <h1 id="loghead">WELCOME</h1>
+  <div id="butforms">
+        <button id="butform1" type="button" class="butform" onclick="form1()">STUDENT LOGIN</button>
+        <button id="butform2" type="button" class="butform" onclick="form2()">CREATOR LOGIN</button>
+      </div>
+      <form id="form1" action="loginstudent.php" method="POST">
+        <div id="mail" class="fele">
+          <input id="email" name="name" type="text" class="in" placeholder="Enter Name" required>
+          <!--<img class="icons" src="user.png">-->
+        </div>
+        <div id="pass" class="fele">
+          <input id="password" name="password" class="in" type="password" placeholder="Enter Password" required>
+          <!--<img class="icons" src="lock.png">-->
+        </div>
+        <div id="submit" class="fele">
+          <input type="submit" id="sub" value="LOGIN">
+        </div>
+        <div id="reg" class="fele">
+        <p><a href="registerstudent.html">New User? Register </a></p>
+        </div>
+      </form>
+      <form id="form2" action="login.php" method="POST">
+        <div id="mail" class="fele">
+          <input id="email" name="email" type="text" class="in" placeholder="Enter Email" required>
+          <!--<img class="icons" src="user.png">-->
+        </div>
+        <div id="pass" class="fele">
+          <input id="password" name="password" class="in" type="text" placeholder="Enter Password" required>
+          <!--<img class="icons" src="lock.png">-->
+        </div>
+        <div id="submit" class="fele">
+          <input type="submit" id="sub" value="LOGIN">
+        </div>
+        <div id="reg" class="fele">
+          <p><a href="register.html">New User? Register </a></p>
+        </div>
+        </form> 
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
